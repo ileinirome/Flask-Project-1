@@ -1,0 +1,47 @@
+
+.title{
+    font-family: 'MuseoModerno', cursive;
+    font-size: 210%;
+    color:#4682B4;
+    text-align: center;
+    text-shadow: 5px 5px #FFFAFA;
+    margin-top: 35px;
+}
+
+.subtitle{
+    font-family: 'MuseoModerno', cursive;
+    font-size: 125%;
+    text-align: center;
+    text-shadow: 2px 2px #FFFAFA;
+    background-color: #FFDAB9;
+    padding: 0px;
+    width: 900px;
+    margin-left: 165px;
+}
+
+input[type=text] {
+  font-family: 'Bellota', cursive;
+  font-size: 150%;
+  width: 50%;
+  height: 75px;
+  padding: 12px 20px;
+  border: 2px solid red;
+  margin-left: 270px;
+  margin-top: 50px;
+  border-radius: 4px;
+  color: black; 
+}
+
+input[type=submit] {
+  font-family: 'Bellota', cursive;
+  padding: 16px 32px;
+  margin: 10px 10px;
+  width: 135px;
+  height: 135px;
+  font-size: 100%;
+  color: black; 
+}
+
+input[placeholder]{
+    font-size: 100%;
+}

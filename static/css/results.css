@@ -1,0 +1,20 @@
+.confirm{
+    font-family: 'MuseoModerno', cursive;
+    font-size: 250%;
+    color:black;
+    text-align: center;
+    text-shadow: 8px 1px #FFFAF0;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.def{
+    font-family: 'MuseoModerno', cursive;
+    font-size: 300%;
+    text-align: center;
+    text-shadow: 3px 2px #D3D3D3;
+    background-color: #FFFFFF;
+    padding: 0px;
+    width: 900px;
+    margin-left: 220px;
+}

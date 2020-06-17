@@ -1,13 +1,35 @@
 <html>
     <head>
-        <title>Welcome!</title>
+        <title>Ileini - Flask Project 1</title>
+          <!-- Custom CSS -->
+         <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@500&display=swap" rel="stylesheet">
+         <link href="https://fonts.googleapis.com/css2?family=Megrim&display=swap" rel="stylesheet">
+         <link href="https://fonts.googleapis.com/css2?family=Bellota&display=swap" rel="stylesheet">
+         <link href="static/css/style.css?q={{time}}" rel="stylesheet"> 
     </head>
+      <style>
+    body {
+      background-image: url("https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/chaotic-geometry-background-minimal-plasteed.jpg");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+
+  </style>
     <body>
-        <h1>Hello world!</h1>
-        <p>We can build a full webpage here</p>
-        <form>
-            <input type="text" name="nickname" value="Enter your nickname"/>
+        <div class="title">
+        <h1>Welcome to Ms. Romero's Geometry Dictionary!</h1>
+        </div>
+
+        <div class="subtitle">
+        <p>You can search for the definition of any geometry term here. Please type the vocabulary term in the box below to view the definition.</p>
+        </div>
+
+        <div class="user">
+        <form method = "post" action = "/results">
+            <input type="text" name="vocab_term" placeholder="Enter the geometry term here"/>
             <input type="submit" value="Submit"/>
         </form>
+        </div>
     </body>
 </html>
